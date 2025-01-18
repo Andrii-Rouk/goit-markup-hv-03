@@ -1,16 +1,66 @@
 
+                /* ------ SISTEM ----- */
 body {
  font-family: "Roboto", sans-serif;
  color: #434455;
  background-color: #fff;
 }
 
-ul, ol {
-    list-style-type: none;         /* скинув крапки біля списків посилань */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
-    text-decoration: none;         /* скинув з посилань підкреслення  */
+    text-decoration: none;
+}
+
+            /* ----- HEDER ------ */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.heder-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -25,18 +75,26 @@ color: #4d5ae5;
 
 .header-logo .logo-part {
     color: #2e2f42;
-}
+    }
 
 .footer-logo .logo-part {
     color:#f4f4fd;
 }
 
+.header-logo  {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+
 .nav-link {
+display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -44,11 +102,19 @@ color: #2e2f42;
     color: #404bbf;
 }
 
-.kontakts {
-    font-style: normal;
+.contacts-list {
+
 }
 
+.kontakts {
+    display: flex;
+    font-style: normal;
+    margin-left: 332px;
+    }
+
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
